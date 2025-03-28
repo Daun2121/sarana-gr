@@ -18,7 +18,6 @@ const Footer = () => {
           <div className='flex justify-between'>
             {/* No HP */}
             <div className="flex gap-5">
-              <p>0857 9678 1454</p>
               <p>0858 9284 4434</p>
               <p>0813 8145 3455</p>
             </div>

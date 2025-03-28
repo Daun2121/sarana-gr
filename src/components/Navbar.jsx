@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="mx-auto lg:flex justify-between items-center 2xl:max-w-[1536px]">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <NavLink to='/' className="text-5xl font-gendy"><p>PT. SARANA GEMA REKAYASA</p></NavLink>
+          <NavLink to='/' className="text-[40px] font-gendy"><p>PT. SARANA GEMA REKAYASA</p></NavLink>
 
           {/* Menu toggle button */}
           <input className="hidden peer" type="checkbox"/>
@@ -36,7 +36,7 @@ const Navbar = () => {
 
         {/* Menu items */}
         <ul className={`${menuOpen ? 'top-[60px] opacity-100 grid bg-[#202124]' : 'hidden'} 
-        right-0 w-full text-xl font-semibold gap-3 z-[1] p-2 px-2 absolute rounded-b-md transition-all lg:w-auto lg:flex lg:gap-5 lg:z-auto lg:static lg:p-0 lg:opacity-100 lg:top-0 lg:scale-100`}>
+        right-0 w-full text-base font-semibold gap-3 z-[1] p-2 px-2 absolute rounded-b-md transition-all lg:w-auto lg:flex lg:gap-5 lg:z-auto lg:static lg:p-0 lg:opacity-100 lg:top-0 lg:scale-100`}>
           <NavLink className="flex flex-col items-center gap-1" to='/Products'><p>Products</p></NavLink>
           <NavLink className="flex flex-col items-center gap-1" to='/AboutUs'><p>About Us</p></NavLink>
           <NavLink className="flex flex-col items-center gap-1" to='/ContactUs'><p>Contact Us</p></NavLink>

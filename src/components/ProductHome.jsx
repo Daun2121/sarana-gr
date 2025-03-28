@@ -26,10 +26,10 @@ const ProductHome = () => {
         <div className="w-full mx-auto 2xl:max-w-[1536px]">
           {/* Title & Desc */}
           <div className="px-5 pb-5 text-white">
-            <NavLink to="/Products" className="text-6xl font-bold hover:text-[#202124]">
-              <h1 className="inline">Our Products</h1>
+            <NavLink to="/Products" className="text-[40px] font-bold hover:text-[#202124]">
+              <h1 className="inline">Products</h1>
             </NavLink>
-            <p className="w-full lg:w-1/2 mt-3">Temukan berbagai produk hidrolik dan pneumatik berkualitas tinggi yang dirancang untuk memenuhi kebutuhan industri Anda.</p>
+            <p className="w-full lg:w-1/2 mt-3 text-base">Temukan berbagai produk hidrolik dan pneumatik berkualitas tinggi yang dirancang untuk memenuhi kebutuhan industri Anda.</p>
           </div>
           {/* Product list */}
             
