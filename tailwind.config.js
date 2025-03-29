@@ -9,7 +9,11 @@ export default {
       fontFamily: {
         poppins:["Poppins", "sans-serif"],
         gendy: ["Gendy", "sans-serif"],
-      }
+        monument: ["MonumentExtended", "sans-serif"],
+      },
+      fontWeight: {
+        ultrabold: '800',
+      },
     },
   },
   plugins: [],

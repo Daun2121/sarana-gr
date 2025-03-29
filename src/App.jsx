@@ -1,6 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
-// import Navbar from "./components/Navbar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -11,18 +9,19 @@ import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
-    <Router>
+    <>
       {/* Navbar */}
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/products' element={<Products/>} />
-        <Route path='/aboutUs' element={<AboutUs/>} />
-        <Route path='/contactUs' element={<ContactUs/>} />
-      </Routes>
+
+      {/* Sections */}
+      <Home />
+      <Products />
+      <AboutUs />
+      <ContactUs />
+      
       {/* Footer */}
       <Footer />        
-    </Router>
+    </>
   )
 }
 
