@@ -16,7 +16,7 @@ import clevis from '../assets/images/products/clevis.png'
 
 const ItemProducts = () => {
   return (
-    <div id="Products" className="flex px-[50px] gap-5 h-auto items-center overflow-x-auto snap-x snap-mandatory ">
+    <div id="Products" className="flex px-12 2xl:px-0 gap-5 h-auto items-center overflow-x-auto snap-x snap-mandatory ">
       {/* items */}
       <ProductItemsHome src={gear_pump}>Gear Pump</ProductItemsHome>
       <ProductItemsHome src={flow}>Flow Control Hydraulic</ProductItemsHome>

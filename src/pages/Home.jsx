@@ -1,9 +1,8 @@
 import product from '../assets/images/product.png';
 const Home = () => {
   return (
-    <div className="bg-white">
-      <div className="mx-auto w-full pt-20 px-[50px] 
-      flex gap-10 relative justify-end items-center
+    <div className="bg-white px-12">
+      <div className="mx-auto w-full pt-20 flex gap-10 relative justify-end items-center
       2xl:max-w-[1536px]">
         <div className="grid lg:grid-cols-2">
           <img src={product} alt="" className='w-[600px] z-10 
