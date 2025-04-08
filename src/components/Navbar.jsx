@@ -14,11 +14,11 @@ const Navbar = () => {
 
 
   return (
-    <header className="top-0 left-0 sticky z-50 w-full px-12 py-4 bg-[#202124] text-[#FDC500] shadow-md transition-all duration-300 ease-in-out">
+    <header className="top-0 left-0 sticky z-50 w-full px-12 py-1 bg-[#202124] text-[#00B4D8] shadow-md transition-all duration-300 ease-in-out border-b border-gray-300 ">
       <nav className="mx-auto lg:flex justify-between items-center 2xl:max-w-[1536px] font-monument">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href='/' className="text-[40px]"><p>PT. SARANA GEMA REKAYASA</p></a>
+          <a href='#Home' className="text-[32px]"><p>PT. SARANA GEMA REKAYASA</p></a>
 
           {/* Menu toggle button */}
           <input className="hidden peer" type="checkbox"/>
@@ -34,12 +34,19 @@ const Navbar = () => {
         </div>
 
         {/* Menu items */}
-        <ul className={`${menuOpen ? 'top-[60px] opacity-100 grid bg-[#202124]' : 'hidden'} 
-        right-0 w-full text-base gap-3 z-[1] p-2 px-2 absolute rounded-b-md transition-all 
-        lg:w-auto lg:flex lg:gap-10 lg:z-auto lg:static lg:p-0 lg:opacity-100 lg:top-0 lg:scale-100`}>
-          <a href='/Products' className="flex flex-col items-center gap-1"><p>Products</p></a>
-          <a href='/AboutUs' className="flex flex-col items-center gap-1"><p>About Us</p></a>
-          <a href='/AboutUs' className="flex flex-col items-center gap-1"><p>Contact Us</p></a>
+        <ul className=
+          {`${menuOpen ? 'top-[55px] opacity-100 grid bg-[#202124]' : 'hidden'} 
+          z-[1] p-2 px-2 right-0 w-full absolute 
+          text-base 
+          rounded-b-md 
+          gap-3
+          transition-all 
+          lg:w-auto lg:flex lg:gap-3 lg:z-auto lg:static lg:p-0 lg:opacity-100 lg:top-0 lg:scale-100
+          xl:gap-10
+          `}>
+          <a href='#Products' className="flex flex-col items-center gap-1"><p>Products</p></a>
+          <a href='#AboutUs' className="flex flex-col items-center gap-1"><p>About Us</p></a>
+          <a href='#ContactUs' className="flex flex-col items-center gap-1"><p>Contact Us</p></a>
         </ul>
 
       </nav>

@@ -1,21 +1,34 @@
 import product from '../assets/images/product.png';
 const Home = () => {
   return (
-    <div className="bg-white px-12">
-      <div className="mx-auto w-full pt-20 flex gap-10 relative justify-end items-center
-      2xl:max-w-[1536px]">
-        <div className="grid lg:grid-cols-2">
-          <img src={product} alt="" className='w-[600px] z-10 
-          lg:place-self-end lg:order-last'/>
-          <div className="self-center">
-            <h1 className="text-[40px] font-monument">Tertarik dengan produk berkualitas dari kami?</h1>
-            <p className="text-base my-4 font-light">
-              Tim kami siap membantu anda menemukan solusi terbaik untuk kebutuhan anda. 
-              <br/>
-              Jangan ragu untuk menghubungi kami
-            </p>
-            <a href="#ContactUs" className="font-monument underline underline-offset-1 text-3xl hover:text-[#fdc500]">Contact Us</a>    
-          </div>
+    // BG
+    <div 
+      id='Home'
+      className="bg-white px-12 pt-[100px]">
+      {/* Frame */}
+      <div className="mx-auto grid justify-between 
+      lg:grid-cols-2 2xl:max-w-[1536px]">
+        {/* Picture */}
+        <img 
+          src={product} 
+          alt="Sparepart Image" 
+          className='w-[600px] z-10 lg:order-last justify-self-end'/>
+        {/* Title, Desc, & Button */}
+        <div>
+          <h1 className="text-4xl font-monument">Tertarik dengan produk berkualitas dari kami?</h1>
+          <p className="text-lg my-4 font-light">
+            Tim kami siap membantu anda menemukan solusi terbaik untuk kebutuhan anda. 
+            Jangan ragu untuk menghubungi kami
+          </p>
+          <a 
+            href="#ContactUs" 
+            className="
+              text-3xl 
+              font-monument underline underline-offset-1 
+              hover:text-[#00B4D8]
+              ">
+                Contact Us
+          </a>    
         </div>
       </div>
     </div>

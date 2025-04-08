@@ -5,7 +5,7 @@ const Icon = ({children, linkApps}) => {
   
   return (
     <a href={linkApps}
-    className={`flex text-4xl hover:text-[#d1dae0]`}>
+    className={`flex text-4xl hover:text-white`}>
       {children}
     </a>
   )
