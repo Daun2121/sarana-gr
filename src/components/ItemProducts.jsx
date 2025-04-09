@@ -16,19 +16,26 @@ import clevis from '../assets/images/products/clevis.png'
 
 const ItemProducts = () => {
   return (
-    <div id="Products" className="flex px-12 2xl:px-0 gap-5 h-auto items-center overflow-x-auto snap-x snap-mandatory ">
+    <div id="Products" 
+    className="
+      h-auto
+      flex items-center gap-3 md:gap-5
+      px-6 md:px-8 2xl:px-0
+      overflow-x-auto snap-x snap-mandatory 
+      ">
       {/* items */}
       <ProductItemsHome src={gear_pump}>Gear Pump</ProductItemsHome>
-      <ProductItemsHome src={flow}>Flow Control Hydraulic</ProductItemsHome>
+      <ProductItemsHome src={flow}>Flow Control</ProductItemsHome>
       <ProductItemsHome src={h_jack}>Hydraulic Jack</ProductItemsHome>
-      <ProductItemsHome src={h_c_valve}>Hydraulic Control Valve</ProductItemsHome>
+      <ProductItemsHome src={h_c_valve}>Control Valve</ProductItemsHome>
       <ProductItemsHome src={tracker}>Tracker</ProductItemsHome>
       <ProductItemsHome src={cover}>Cover Hydraulic</ProductItemsHome>
-      <ProductItemsHome src={h_c_cap}>Hydraulic Cylinder Cap</ProductItemsHome>
+      <ProductItemsHome src={h_c_cap}>Cylinder Cap</ProductItemsHome>
       <ProductItemsHome src={pressure}>Pressure Gauge</ProductItemsHome>
       <ProductItemsHome src={bubut_1}>Gear Pump</ProductItemsHome>
       <ProductItemsHome src={bubut_2}>Gear Pump</ProductItemsHome>
       <ProductItemsHome src={clevis}>Clevis</ProductItemsHome>
+      
       
       {/* {ProductList && ProductList.map(product => {
           return (

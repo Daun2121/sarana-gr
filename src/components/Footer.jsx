@@ -7,27 +7,38 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 const Footer = () => {
   return (
     <div className="
-      mx-auto mb-16 px-12 w-full grid
+      w-full grid
+      mx-auto mb-16 
+      px-6 md:px-8 
       2xl:max-w-[1536px] 2xl:px-0 
       ">
       {/* Title Perusahaan */}
       <span 
         className="
-          font-monument text-[#00B4D8]/10 text-[29px]
-          justify-self-center text-center 
+          font-monument text-[#00B4D8]/10 text-center 
+          
+          text-[53px]
+          sm:text-[30px]
+          md:text-[36px]
+          lg:text-[51px] 
+          xl:text-[66px] 
+          2xl:text-[86px] 
+
+          justify-self-center 
+          whitespace-nowrap
           cursor-default select-none pointer-events-none
-          2xl:text-[86px] xl:text-[66px] lg:text-[51px] md:text-[36px]
-          ">
-            SARANA GEMA&nbsp;
-            <span>
-              REKAYASA
-            </span>
+        ">
+          SARANA GEMA&nbsp; <br />
+          <span className=''>
+            REKAYASA
+          </span>
       </span>
 
       {/* Footer Information */}
       <div 
         className="
-          text-white/50 font-light 
+          text-white/50 text-[14px] lg:text-[16px] xl:text-[18px]
+          font-light 
           mt-[100px]
           grid grid-cols-2 gap-2
           ">

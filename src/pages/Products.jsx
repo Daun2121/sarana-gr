@@ -18,9 +18,25 @@ const ProductHome = () => {
         {/* Frame */}
         <div className="w-full mx-auto 2xl:max-w-[1536px]">
           {/* Title & Desc */}
-          <div className="px-12 2xl:px-0 pb-5 text-white">
-            <h1 className="text-4xl font-monument">Products</h1>
-            <p className="w-full lg:w-1/2 mt-3 text-lg font-light">Temukan berbagai produk hidrolik dan pneumatik berkualitas tinggi yang dirancang untuk memenuhi kebutuhan industri Anda.</p>
+          <div className="
+            px-6 pb-5 text-white
+            md:px-8
+            2xl:px-0 
+            ">
+            {/* Title */}
+            <h1 className="font-monument
+              text-3xl xl:text-4xl
+              ">
+              Products
+            </h1>
+            {/* Desc */}
+            <p className="
+              mt-3 font-light
+              w-full lg:w-2/3
+              text-sm lg:text-base xl:text-lg
+              ">
+              Temukan berbagai produk hidrolik dan pneumatik berkualitas tinggi yang dirancang untuk memenuhi kebutuhan industri Anda.
+            </p>
           </div>
           {/* Product list */}
           <ItemProducts/> 

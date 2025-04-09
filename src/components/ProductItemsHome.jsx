@@ -1,17 +1,42 @@
-const ProductItemsHome = ({src, children}) => {
+const ProductItemsHome = ({ src, children }) => {
   return (
-    <div className="snap-center bg-[#202124]/25 grid items-center border-2 border-[#202124]/25
-    justify-items-center p-2 rounded-md aspect-square">
-      <img src={src} alt="" className='object-contain h-56 max-w-48'/>
-      <div className="w-full  ">
-
-        <h1 className="bg-[#00B4D8] text-center rounded-md px-3 py-1 mt-1 shadow-[inset_0_0_5px_5px_rgba(0,0,0,0.25)]
-        text-[#ededed] font-semibold hover:bg-[#164f5c] hover:text-white whitespace-nowrap">
+    <div
+      className="
+      p-2 
+      grid place-content-center justify-items-center
+      bg-[#202124]/25 
+      border-2 border-[#202124]/25
+      snap-center 
+      rounded-md 
+      w-40 md:w-[200px]
+      aspect-[3/4]"
+    >
+      {/* Image */}
+      <img
+        src={src}
+        alt={children}
+        className="object-contain 
+        h-40 md:h-60
+        max-w-32 md:max-w-48
+      "
+      />
+      {/* Frame Button */}
+      <div className="w-full">
+        {/* Button Name */}
+        <h1
+          className="
+          px-3 py-1 mt-1 
+          text-center text-[#ededed] font-semibold bg-[#00B4D8] 
+          rounded-md 
+          shadow-[inset_0_0_5px_5px_rgba(0,0,0,0.25)]
+          whitespace-nowrap
+          "
+        >
           {children}
         </h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductItemsHome
+export default ProductItemsHome;
