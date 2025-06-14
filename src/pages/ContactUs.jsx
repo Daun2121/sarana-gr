@@ -1,3 +1,4 @@
+import FormEmail from "../components/FormEmail";
 const ContactUs = () => {
   return (
     <div id="ContactUs" className="pb-20 pt-[100px]">
@@ -29,52 +30,7 @@ const ContactUs = () => {
           {/* Form Box & Maps */}
           <div className="grid md:grid-cols-2 w-full gap-10 lg:gap-7 xl:gap-10 mt-10">
             {/* Form Box */}
-            <form
-              action=""
-              className="
-                grid grid-cols-2 
-                gap-[10px] lg:gap-5
-                p-[10px] lg:p-[20px]
-                rounded-xl 
-                bg-[#323335] [box-shadow:inset_0_0_5px_2px_rgb(0,0,0,0.25)]
-              "
-            >
-              {/* Name */}
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                required
-                className="py-3 px-4 rounded-lg bg-[#202124]/10 [box-shadow:inset_0_0_5px_0_rgb(0,0,0,0.25)]"
-              />
-              {/* Phone */}
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone"
-                required
-                className="py-3 px-4 rounded-lg bg-[#202124]/10 [box-shadow:inset_0_0_5px_0_rgb(0,0,0,0.25)]"
-              />
-              {/* Email */}
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                required
-                className="py-3 px-4 rounded-lg col-span-full bg-[#202124]/10 [box-shadow:inset_0_0_5px_0_rgb(0,0,0,0.25)]"
-              />
-              {/* Messages */}
-              <textarea
-                name="message"
-                placeholder="Messages"
-                required
-                className="py-3 px-4 rounded-lg col-span-full bg-[#202124]/10 [box-shadow:inset_0_0_5px_0_rgb(0,0,0,0.25)]"
-              />
-              {/* Submit Button */}
-              <button className="col-span-full bg-[#00B4D8] text-[#202124] font-bold py-3 px-4 rounded-lg hover:bg-[#164f5c] hover:text-white">
-                Submit
-              </button>
-            </form>
+            <FormEmail />
             {/* Map */}
             <iframe
               className="w-full h-72 md:h-full rounded-lg"

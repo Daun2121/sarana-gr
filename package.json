@@ -11,6 +11,7 @@
     "deployTail": "npx tailwindcss -i ./src/index.css -o ./dist/style.css --watch"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.7.0",
     "@fortawesome/free-regular-svg-icons": "^6.7.0",
@@ -19,6 +20,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
+    "react-toastify": "^11.0.5",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
@@ -34,6 +36,6 @@
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
-    "vite": "^5.4.10"
+    "vite": "^6.3.3"
   }
 }

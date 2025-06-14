@@ -11,6 +11,10 @@ export default {
       fontWeight: {
         ultrabold: "800",
       },
+      colors: {
+        primary: "#00B4D8",
+        secondary: "#202124",
+      }
     },
   },
   plugins: [],
