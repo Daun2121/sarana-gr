@@ -12,10 +12,7 @@ const Footer = () => {
                             solutions since 1995.
                         </p>
                         <div className="flex space-x-4">
-                            <a
-                                href="#"
-                                className="text-gray-300 hover:text-[#00B4D8] transition"
-                            >
+                            <a href="#" className="text-gray-300 hover:text-[#00B4D8] transition">
                                 <svg
                                     className="w-6 h-6"
                                     fill="currentColor"
