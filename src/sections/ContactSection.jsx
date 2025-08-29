@@ -53,7 +53,7 @@ const ContactSection = () => {
             .send(serviceId, templateId, templateParams, publicKey)
             .then((response) => {
                 console.log("Berhasil masku", response);
-                toast.success("Message sent successfully👌", {
+                toast.success("Message sent successfully", {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000, // Durasi toast (dalam milidetik)
                     hideProgressBar: false,
@@ -231,7 +231,7 @@ const ContactSection = () => {
                                 </div>
 
                                 <a
-                                    href="wa.me/6281381453455"
+                                    href="wa.me/6287778549587"
                                     className="flex items-center mb-2 w-fit"
                                 >
                                     <svg
@@ -249,11 +249,14 @@ const ContactSection = () => {
                                         />
                                     </svg>
                                     <span className="text-gray-600">
-                                        0813-8145-3455
+                                        0877-7854-9587
                                     </span>
                                 </a>
 
-                                <a href="mailto:spresisi@yahoo.com" className="flex items-center">
+                                <a
+                                    href="mailto:spresisi@yahoo.com"
+                                    className="flex items-center"
+                                >
                                     <svg
                                         className="w-5 h-5 text-[#00B4D8] mr-3"
                                         fill="none"
@@ -277,7 +280,7 @@ const ContactSection = () => {
                             <div className="map-container">
                                 <iframe
                                     className="map-iframe"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215571625344!2d-73.9880836845937!3d40.748440179328625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMTkuMiJX!5e0!3m2!1sen!2sus!4v1626874629862!5m2!1sen!2sus"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7662893381735!2d106.65208507570073!3d-6.162046793825158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8c02a1d1bfb%3A0xde7f204aa172bd75!2sPT.%20SHIBA%20HIDROLIK%20PRATAMA!5e0!3m2!1sen!2sid!4v1756379689992!5m2!1sen!2sid"
                                     allowFullScreen=""
                                     loading="lazy"
                                     title="Google Map of HydroTech Headquarters"

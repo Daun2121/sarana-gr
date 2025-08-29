@@ -1,17 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import ProductSection from "./components/ProductSection";
-import AboutSection from "./components/AboutSection";
-import ContactSection from "./components/ContactSection";
-import Footer from "./components/Footer";
+import Header from "./components/organisems/Header";
+import Footer from "./components/organisems/Footer";
+import HeroSection from "./sections/HeroSection";
+import ServiceSection from "./sections/ServiceSection";
+import AboutSection from "./sections/AboutSection";
+import ContactSection from "./sections/ContactSection";
 
 function App() {
     return (
         <>
             <Header />
             <HeroSection />
-            <ProductSection />
+            <ServiceSection />
             <AboutSection />
             <ContactSection />
             <Footer />

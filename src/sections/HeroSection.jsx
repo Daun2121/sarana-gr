@@ -28,12 +28,12 @@ const HeroSection = () => {
                         <button
                             onClick={() =>
                                 document
-                                    .getElementById("products")
+                                    .getElementById("services")
                                     .scrollIntoView({ behavior: "smooth" })
                             }
                             className="border border-white hover:bg-white hover:text-[#202124] text-white px-6 py-3 rounded-md font-medium transition"
                         >
-                            View Products
+                            View Services
                         </button>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import logo from "../assets/images/logo.png"
 const AboutSection = () => {
     return (
         <section id="about" className="py-16 bg-gray-100">
@@ -5,7 +6,8 @@ const AboutSection = () => {
                 <div className="flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                         <img
-                            src="https://placehold.co/600x400"
+                            src={logo}
+                            // src="https://placehold.co/600x400"
                             alt="HydroTech manufacturing facility with state-of-the-art machinery and skilled technicians"
                             className="rounded-lg shadow-lg object-cover w-full h-auto"
                         />
@@ -15,20 +17,22 @@ const AboutSection = () => {
                             About Sarana Gema Rekayasa
                         </h2>
                         <p className="text-gray-600 mb-6">
-                            [Cari sejarah nya]Founded in 1995, HydroTech has been at the forefront
-                            of hydraulic innovation, delivering
-                            precision-engineered components to industries
-                            ranging from heavy machinery to aerospace.
+                            PT. Sarana Gema Rekayasa is a manufacturing company specializing in hydraulic components, supported by advanced CNC machines and a fully equipped workshop. With a team of experienced engineers and technicians, we are committed to delivering high-quality products and reliable services tailored to customer needs. Our dedication to innovation and customer satisfaction allows us to contribute across various industries, including Automotive, Drilling, Transportation, and Mining.
                         </p>
+                        <div className="mb-6">
+                            <h3 className="text-xl font-semibold text-[#202124] mb-3">
+                                Our Vision
+                            </h3>
+                            <p className="text-gray-600 mb-4">
+                                To advance the machinery industry through modern manufacturing technology and management, delivering innovation and excellence.
+                            </p>
+                        </div>
                         <div className="mb-6">
                             <h3 className="text-xl font-semibold text-[#202124] mb-3">
                                 Our Mission
                             </h3>
                             <p className="text-gray-600 mb-4">
-                                [Bikin dari visi misi missionnya]To provide reliable, high-performance hydraulic
-                                solutions that drive industrial productivity
-                                while maintaining the highest standards of
-                                quality and safety.
+                                Our mission is to build strong and lasting partnerships for mutual success, by delivering high-quality products at competitive prices with on-time delivery, ensuring customer satisfaction and sustainable growth.
                             </p>
                         </div>
                         {/* <div className="grid grid-cols-2 gap-4 mb-6">

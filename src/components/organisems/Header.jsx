@@ -64,11 +64,11 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="#products"
-                                onClick={() => scrollToSection("products")}
+                                href="#services"
+                                onClick={() => scrollToSection("services")}
                                 className="text-white hover:text-[#00B4D8] transition"
                             >
-                                Products
+                                Services
                             </a>
                         </li>
                         <li>

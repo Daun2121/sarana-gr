@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "High-Pressure Hydraulic Cylinders",
+        "description":
+            "Designed for extreme conditions with up to 3000 PSI operating pressure.",
+        "image": "/assets/images/products/bubut_2.webp"
+    },
+    {
+        "id": 2,
+        "name": "Precision Hydraulic Pumps",
+        "description":
+            "Energy-efficient pumps with variable displacement for optimal performance.",
+        "image": "https://placehold.co/400x300"
+    },
+    {
+        "id": 3,
+        "name": "Hydraulic Valves & Controls",
+        "description":
+            "Customizable electro-hydraulic controls for precision applications.",
+        "image": "https://placehold.co/400x300"
+    },
+    {
+        "id": 4,
+        "name": "Hydraulic Power Units",
+        "description":
+            "Compact and powerful units for mobile and stationary applications.",
+        "image": "https://placehold.co/400x300"
+    },
+    {
+        "id": 5,
+        "name": "Hydraulic Filtration Systems",
+        "description":
+            "Advanced filtration solutions to extend fluid and component life.",
+        "image": "https://placehold.co/400x300"
+    },
+    {
+        "id": 6,
+        "name": "Custom Hydraulic Solutions",
+        "description":
+            "Bespoke designs tailored to your specific operational requirements.",
+        "image": "https://placehold.co/400x300"
+    }
+]
