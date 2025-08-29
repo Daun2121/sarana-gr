@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <section
             id="home"
-            className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-[#202124] to-gray-800 text-white"
+            className="pt-24 pb-16 md:pt-32 md:pb-24 bg-linear-to-r from-[#202124] to-gray-800 text-white"
         >
             <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 mb-8 md:mb-0 animate-fadeIn">

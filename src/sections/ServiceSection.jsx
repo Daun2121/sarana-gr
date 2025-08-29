@@ -45,7 +45,7 @@ const ServiceSection = () => {
                     <div
                         className="flex transition-transform duration-500 ease-in-out"
                         style={{
-                            transform: `translateX(-${currentSlide * 50}%)`,
+                            transform: `translateX(-${currentSlide * 100}%)`,
                         }}
                     >
                         {Services.map((service) => (

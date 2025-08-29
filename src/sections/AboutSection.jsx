@@ -36,7 +36,7 @@ const AboutSection = () => {
                             </p>
                         </div>
                         {/* <div className="grid grid-cols-2 gap-4 mb-6">
-                            <div className="bg-white p-4 rounded shadow-sm">
+                            <div className="bg-white p-4 rounded-sm shadow-xs">
                                 <div className="text-[#00B4D8] font-bold text-2xl mb-2">
                                     25+
                                 </div>
@@ -44,7 +44,7 @@ const AboutSection = () => {
                                     Years in Business
                                 </div>
                             </div>
-                            <div className="bg-white p-4 rounded shadow-sm">
+                            <div className="bg-white p-4 rounded-sm shadow-xs">
                                 <div className="text-[#00B4D8] font-bold text-2xl mb-2">
                                     500+
                                 </div>
@@ -52,7 +52,7 @@ const AboutSection = () => {
                                     Global Clients
                                 </div>
                             </div>
-                            <div className="bg-white p-4 rounded shadow-sm">
+                            <div className="bg-white p-4 rounded-sm shadow-xs">
                                 <div className="text-[#00B4D8] font-bold text-2xl mb-2">
                                     10M+
                                 </div>
@@ -60,7 +60,7 @@ const AboutSection = () => {
                                     Components Manufactured
                                 </div>
                             </div>
-                            <div className="bg-white p-4 rounded shadow-sm">
+                            <div className="bg-white p-4 rounded-sm shadow-xs">
                                 <div className="text-[#00B4D8] font-bold text-2xl mb-2">
                                     ISO
                                 </div>

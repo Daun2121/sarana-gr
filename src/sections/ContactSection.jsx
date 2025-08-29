@@ -102,7 +102,7 @@ const ContactSection = () => {
                     <div className="lg:w-1/2">
                         <form
                             onSubmit={handleSubmit}
-                            className="bg-gray-50 p-8 rounded-lg shadow-sm"
+                            className="bg-gray-50 p-8 rounded-lg shadow-xs"
                         >
                             <div className="mb-6">
                                 <label
@@ -118,7 +118,7 @@ const ContactSection = () => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00B4D8]"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-hidden focus:ring-2 focus:ring-[#00B4D8]"
                                     placeholder="Your name"
                                 />
                             </div>
@@ -137,7 +137,7 @@ const ContactSection = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00B4D8]"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-hidden focus:ring-2 focus:ring-[#00B4D8]"
                                     placeholder="your.email@example.com"
                                 />
                             </div>
@@ -155,7 +155,7 @@ const ContactSection = () => {
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00B4D8]"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-hidden focus:ring-2 focus:ring-[#00B4D8]"
                                     placeholder="+628 (123) 456-7890"
                                 />
                             </div>
@@ -174,7 +174,7 @@ const ContactSection = () => {
                                     onChange={handleChange}
                                     required
                                     rows="5"
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00B4D8]"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-hidden focus:ring-2 focus:ring-[#00B4D8]"
                                     placeholder="Tell us about your hydraulic requirements..."
                                 ></textarea>
                             </div>
@@ -196,7 +196,7 @@ const ContactSection = () => {
                     </div>
 
                     <div className="lg:w-1/2">
-                        <div className="bg-gray-50 p-8 rounded-lg shadow-sm h-full">
+                        <div className="bg-gray-50 p-8 rounded-lg shadow-xs h-full">
                             <h3 className="text-xl font-semibold text-[#202124] mb-6">
                                 Our Headquarters
                             </h3>

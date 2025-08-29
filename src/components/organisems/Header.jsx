@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Nav_item from "../atoms/Nav_item";
+import Hum_icon from "../atoms/Hum_icon";
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -28,67 +30,26 @@ const Header = () => {
                 </div>
 
                 <button
-                    className="md:hidden text-white focus:outline-none"
+                    className="md:hidden text-white focus:outline-hidden"
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
-                    <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M4 6h16M4 12h16M4 18h16"
-                        />
-                    </svg>
+                    <Hum_icon />
                 </button>
 
                 <nav
-                    className={`${
-                        mobileMenuOpen ? "block" : "hidden"
-                    } md:block absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-[#202124] md:bg-transparent`}
+                    className={`${mobileMenuOpen ? "block" : "hidden"} 
+                    ${
+                        scrolled
+                            ? "top-11 bg-[#202124]"
+                            : "top-14 bg-linear-to-r from-[#202124] to-gray-800 md:bg-none md:bg-transparent shadow md:shadow-none"
+                    } 
+                    md:block absolute md:relative md:top-0 left-0 w-full md:w-auto transition-all duration-300 `}
                 >
                     <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 p-4 md:p-0">
-                        <li>
-                            <a
-                                href="#home"
-                                onClick={() => scrollToSection("home")}
-                                className="text-white hover:text-[#00B4D8] transition"
-                            >
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#services"
-                                onClick={() => scrollToSection("services")}
-                                className="text-white hover:text-[#00B4D8] transition"
-                            >
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#about"
-                                onClick={() => scrollToSection("about")}
-                                className="text-white hover:text-[#00B4D8] transition"
-                            >
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#contact"
-                                onClick={() => scrollToSection("contact")}
-                                className="text-white hover:text-[#00B4D8] transition"
-                            >
-                                Contact
-                            </a>
-                        </li>
+                        <Nav_item to="#home" name="Home" setMMO={scrollToSection} />
+                        <Nav_item to="#services" name="Services" setMMO={scrollToSection} />
+                        <Nav_item to="#about" name="About Us" setMMO={scrollToSection} />
+                        <Nav_item to="#contact" name="Contact" setMMO={scrollToSection} />
                     </ul>
                 </nav>
             </div>
