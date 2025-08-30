@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#202124] text-white pt-12 pb-6">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-[#00B4D8]">
                             Sarana Gema Rekayasa
@@ -11,11 +11,13 @@ const Footer = () => {
                             Hydraulic components manufacturer with advanced CNC
                             machines and a fully equipped workshop.
                         </p>
+                        {/* List Icon */}
                         <div className="flex space-x-4">
                             {/* WhatsApp */}
                             <a
-                                href="wa.me/6287778549587"
+                                href="http://wa.me/6287778549587"
                                 className="text-gray-300 hover:text-[#00B4D8] transition"
+                                target="_blank"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -31,6 +33,7 @@ const Footer = () => {
                             <a
                                 href="https://www.facebook.com/saranagema.rekayasa"
                                 className="text-gray-300 hover:text-[#00B4D8] transition"
+                                target="_blank"
                             >
                                 <svg
                                     className="w-6 h-6"
@@ -45,6 +48,7 @@ const Footer = () => {
                             <a
                                 href="https://www.instagram.com/saranagemarekayasa"
                                 className="text-gray-300 hover:text-[#00B4D8] transition"
+                                target="_blank"
                             >
                                 <svg
                                     className="w-6 h-6"
@@ -59,6 +63,7 @@ const Footer = () => {
                             <a
                                 href="https://tokopedia.link/JXqROxq0dWb"
                                 className="text-gray-300 hover:text-[#00B4D8] transition"
+                                target="_blank"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

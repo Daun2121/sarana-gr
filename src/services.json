@@ -3,18 +3,18 @@
         "id": 1,
         "name": "Parts",
         "description": "Manufacturing a wide range of machine components and custom spare parts tailored to meet industrial needs.",
-        "image": "/assets/images/services/parts 2.png"
+        "image": "/assets/images/services/parts.webp"
     },
     {
         "id": 2,
         "name": "Engineering",
         "description": "Providing design, modification, and technical solutions by a team of experienced professionals.",
-        "image": "/assets/images/services/engineering.jpg"
+        "image": "/assets/images/services/engineering.webp"
     },
     {
         "id": 3,
         "name": "Manufacturing",
         "description": "High-precision production processes utilizing CNC technology and strict quality control measures.",
-        "image": "/assets/images/services/manufacturing.jpg"
+        "image": "/assets/images/services/manufacturing.webp"
     }
 ]

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// import Products from "../products.json";
 import Services from "../services.json";
 import Card_services from "../components/molecules/Card_services";
 const ServiceSection = () => {
@@ -40,7 +39,6 @@ const ServiceSection = () => {
                         environments.
                     </p>
                 </div>
-
                 <div className="relative overflow-hidden">
                     <div
                         className="flex transition-transform duration-500 ease-in-out"
@@ -57,6 +55,7 @@ const ServiceSection = () => {
                             />
                         ))}
                     </div>
+                    {/* Prev & Next Button */}
                     {isMobileView && (
                         <>
                             {/* Prev */}
@@ -102,6 +101,7 @@ const ServiceSection = () => {
                         </>
                     )}
                 </div>
+                {/* Pagination Dot */}
                 {isMobileView && (
                     <>
                         <div className="flex justify-center mt-8">

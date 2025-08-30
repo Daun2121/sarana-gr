@@ -1,4 +1,4 @@
-import product from "../assets/images/product.png";
+import hero from "../assets/images/hero.webp";
 
 const HeroSection = () => {
     return (
@@ -39,7 +39,7 @@ const HeroSection = () => {
                 </div>
                 <div className="md:w-1/2 flex justify-center">
                     <img
-                        src={product}
+                        src={hero}
                         alt="Industrial facility showcasing hydraulic machinery and components with workers in safety gear inspecting equipment"
                         className="rounded-lg object-cover w-full h-auto"
                     />

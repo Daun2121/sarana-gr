@@ -24,9 +24,12 @@ const Header = () => {
         >
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <div className="flex items-center">
-                    <div className="text-[#00B4D8] font-bold text-lg mr-8">
+                    <a
+                        href="#home"
+                        className="text-[#00B4D8] font-bold text-lg mr-8"
+                    >
                         Sarana Gema Rekayasa
-                    </div>
+                    </a>
                 </div>
 
                 <button
@@ -43,13 +46,29 @@ const Header = () => {
                             ? "top-11 bg-[#202124]"
                             : "top-14 bg-linear-to-r from-[#202124] to-gray-800 md:bg-none md:bg-transparent shadow md:shadow-none"
                     } 
-                    md:block absolute md:relative md:top-0 left-0 w-full md:w-auto transition-all duration-300 `}
+                    md:block absolute md:relative md:top-0 left-0 w-full md:w-auto transition-all duration-100`}
                 >
                     <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 p-4 md:p-0">
-                        <Nav_item to="#home" name="Home" setMMO={scrollToSection} />
-                        <Nav_item to="#services" name="Services" setMMO={scrollToSection} />
-                        <Nav_item to="#about" name="About Us" setMMO={scrollToSection} />
-                        <Nav_item to="#contact" name="Contact" setMMO={scrollToSection} />
+                        <Nav_item
+                            to="#home"
+                            name="Home"
+                            setMMO={scrollToSection}
+                        />
+                        <Nav_item
+                            to="#services"
+                            name="Services"
+                            setMMO={scrollToSection}
+                        />
+                        <Nav_item
+                            to="#about"
+                            name="About Us"
+                            setMMO={scrollToSection}
+                        />
+                        <Nav_item
+                            to="#contact"
+                            name="Contact"
+                            setMMO={scrollToSection}
+                        />
                     </ul>
                 </nav>
             </div>

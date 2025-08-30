@@ -5,8 +5,6 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        gendy: ["Gendy", "sans-serif"],
-        monument: ["MonumentExtended", "sans-serif"],
       },
       fontWeight: {
         ultrabold: "800",
@@ -14,6 +12,15 @@ export default {
       colors: {
         primary: "#00B4D8",
         secondary: "#202124",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0%"},
+          "100%": { opacity: "100%"}
+        }
+      },
+      animation: {
+        fadeIn: "fadeIn "
       }
     },
   },

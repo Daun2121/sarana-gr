@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logo.webp"
 const AboutSection = () => {
     return (
         <section id="about" className="py-16 bg-gray-100">

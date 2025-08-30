@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
-layer(base);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')layer(base);
 @import 'tailwindcss';
 @config '../tailwind.config.js';
 
@@ -10,14 +9,6 @@ layer(base);
   --color-dark-secondary: rgba(32, 33, 36, 0.25);
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
@@ -28,38 +19,12 @@ layer(base);
   }
 }
 
-@layer utilities {
-  @font-face {
-    font-family: 'Gendy';
-    src: url('assets/fonts/gendy.otf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'MonumentExtended';
-    src: url('assets/fonts/MonumentExtended-Regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'MonumentExtended';
-    src: url('assets/fonts/MonumentExtended-Ultrabold.otf') format('opentype');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-  }
-}
-
 @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
     .animate-fadeIn {
       animation: fadeIn 1s ease-in-out;
-    }
-    .products-carousel {
-      scroll-snap-type: x mandatory;
     }
     .service-card {
       scroll-snap-align: start;
